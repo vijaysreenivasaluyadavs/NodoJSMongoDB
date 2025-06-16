@@ -1,0 +1,12 @@
+This is video for creation of project in MongoDB website for database
+https://www.youtube.com/watch?v=pO6m0nmo1k0
+
+106.51.188.137 
+password - 4idF7xjM7ni8h1Aq
+
+Projecct: MySampleProject
+Collections: Vijay_Collection
+mongodb+srv://vijayyadavs:4idF7xjM7ni8h1Aq@sample.sc7oj2n.mongodb.net/
+
+GitHub Sample Code:
+https://github.com/vijaysreenivasaluyadavs/Mysample.git
