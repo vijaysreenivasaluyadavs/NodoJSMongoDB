@@ -10,3 +10,9 @@ mongodb+srv://vijayyadavs:4idF7xjM7ni8h1Aq@sample.sc7oj2n.mongodb.net/
 
 GitHub Sample Code:
 https://github.com/vijaysreenivasaluyadavs/Mysample.git
+
+{
+escom: 1,
+Year: 2025,
+District: TUMKUR
+}

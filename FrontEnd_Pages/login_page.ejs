@@ -9,22 +9,42 @@ This is KYC Form to be filled only by relevant people who have Shares allocated 
 
 <main>
   <div class="jumbotron">
-    <form action="/response_1" method="POST">
-        <label for="username">Username:</label>
+
+
+    <form action="/response_2" method="POST">
+        <label for="username">Enter District Name:</label>
         <input type="text" id="username" name="v_username" required />
         <br><br>
         <button type="submit">Submit</button>
     </form>
 
-    <h1>This is second submit</h1>
-    <form action="/response_2" method="POST">
+    <h1>Enter Data to Extract Data from Datbase</h1>
+    <form action="/response_1" method="POST">
         <label for="username">Username:</label>
-        <input type="text" id="username1" name="username1" required />
+        <input type="text" id="username1" name="v_district" required />
+        <label for="Month">Month:</label>
+        <input type="text" id="month" name="v_month" required />
+        <label for="Year">Year:</label>
+        <input type="text" id="year" name="v_year" required />
+        <label for="ESCOM">ESCOM:</label>
+        <input type="text" id="escom" name="v_escom" required />
         <br><br>
         <button type="submit">Submit</button>
     </form>
 
-    <h2>Variable</h2>
+    <h1>Enter Data to Submit Data into Datbase</h1>
+    <form action="/response_3" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="district" name="v_district" required />
+        <label for="Month">Month:</label>
+        <input type="text" id="month" name="v_month" required />
+        <label for="Year">Year:</label>
+        <input type="text" id="year" name="v_year" required />
+        <label for="ESCOM">ESCOM:</label>
+        <input type="text" id="escom" name="v_escom" required />
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
   
 </main>
 
