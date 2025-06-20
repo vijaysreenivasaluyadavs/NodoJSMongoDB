@@ -32,6 +32,8 @@ app.get('/', function(req, res){
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'FrontEnd_Pages'));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 // use res.render to load up an ejs view file
 
 /* istanbul ignore next 
