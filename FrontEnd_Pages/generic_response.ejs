@@ -10,7 +10,15 @@
   <div class="jumbotron">
 
     <h1>This is second submit</h1>
-    <h2>Failed to Insert</h2>
+    <% if (user.age >= 18) { %>
+        <p><%= user.name %> is an adult.</p>
+        <h2>Inserted Successfully</h2>
+    <% } else { %>
+        <p><%= user.name %> is a minor.</p>
+        <h2>Failed to Insert</h2>
+    <% } %>
+    
+
 </main>
 
 </body>
